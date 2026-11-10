@@ -179,6 +179,9 @@ const EvaluationEvaluator: React.FC = () => {
       key: 'modelConfig',
       render: (modelConfig: string) => {
         // 优先使用 modelName，如果为空或为 '-' 则从 modelConfig 中提取
+        if(modelConfig==null||modelConfig===""){
+          modelConfig="{}"
+        }
         const modelConfigJson = JSON.parse(modelConfig);
         const name = modelNameMap[modelConfigJson?.modelId];
         return name ? (

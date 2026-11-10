@@ -1,3 +1,24 @@
+
+
+
+
+
+为了部署spring-ai-alibaba-admin而做的bug修复以及配置
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # [Spring AI Alibaba](https://java2ai.com)
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)

@@ -124,7 +124,7 @@ public class Tool {
 		/**
 		 * Usage examples
 		 */
-		private List<ToolExample> examples;
+		//private List<ToolExample> examples;
 
 	}
 

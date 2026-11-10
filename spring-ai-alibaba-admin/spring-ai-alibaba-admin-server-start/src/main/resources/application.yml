@@ -1,4 +1,5 @@
 server:
+  port: 8081
   compression:
     enabled: true
     mime-types: text/html,text/xml,text/plain,text/css,text/javascript

@@ -16,6 +16,7 @@
 
 package com.alibaba.cloud.ai.a2a.autoconfigure;
 
+import io.a2a.server.tasks.TaskStore;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**

@@ -41,6 +41,30 @@ if [ -d kibana/data ]; then
     sudo chmod -R 777 kibana/data 2>/dev/null || chmod -R 777 kibana/data
 fi
 
+if [ -d mysql ]; then
+    sudo chmod -R 777 mysql 2>/dev/null || chmod -R 777 mysql
+fi
+if [ -d config ]; then
+    sudo chmod -R 777 config 2>/dev/null || chmod -R 777 config
+fi
+if [ -d init ]; then
+    sudo chmod -R 777 init 2>/dev/null || chmod -R 777 init
+fi
+if [ -d elasticsearch_data ]; then
+    sudo chmod -R 777 elasticsearch_data 2>/dev/null || chmod -R 777 elasticsearch_data
+fi
+if [ -d nacos ]; then
+    sudo chmod -R 777 nacos 2>/dev/null || chmod -R 777 nacos
+fi
+if [ -d redis ]; then
+    sudo chmod -R 777 redis 2>/dev/null || chmod -R 777 redis
+fi
+if [ -d rocketmq ]; then
+    sudo chmod -R 777 rocketmq 2>/dev/null || chmod -R 777 rocketmq
+fi
+
+
+
 # Start containers with docker compose
 echo "Starting containers with docker-compose-${MODE}.yaml..."
 docker compose -f docker-compose-${MODE}.yaml up -d --build
