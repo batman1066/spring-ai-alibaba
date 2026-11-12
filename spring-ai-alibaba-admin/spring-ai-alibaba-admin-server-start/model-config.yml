@@ -5,7 +5,7 @@ models:
     provider: dashscope
     modelName: qwen-plus
     baseUrl: https://dashscope.aliyuncs.com/compatible-mode
-    apiKey: sk-ws-H.EIYERHH.Xybu.MEUCIGGzR0qbI82IsKOmAcBq8D13R7qiFJEKSbor3BKcSfTfAiEAotQUwxR21ROiGyRCgs28OX8riyrt2yDoFD6prwB4ZVQ
+    apiKey: 123456
     status: 1
     defaultParameters:
       temperature: 0.7
